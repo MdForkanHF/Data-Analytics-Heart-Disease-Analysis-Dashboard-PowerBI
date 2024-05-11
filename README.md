@@ -4,8 +4,28 @@
 
 
 
+A Data Analytics project: Heart Disease Analysis Dashboard.
 
-# Data-Analytics-Heart-Disease-Analysis-Dashboard-PowerBI
-About data set:
+
+
+About data set
+
 - 300 patients sample
-- age range from 29 to 77.
+- patients age range from 29 to 77.
+
+
+
+how to do.
+after load the data must have to do 4 major work.
+
+- make a Gender column: that will convert the 0 and 1 sex column value to female and male text data. Formula: Gender = IF('patients 300 data'[sex] = 1, "Male", "Female"
+- make a Disease_status column: that will convert the 0 and 1 target column value to No Disease and disease text data. Formula: Disease_Status = IF('patients 300 data'[target] = 1, "Disease", "No Disease")
+- make 2 new measure for female and male count
+
+-- for visualisation : drag and drop the column in visualisation field, click down arrow symbol to adjust.
+
+
+#Data_analytics #Power_BI #powerbi
+#Heart_Disease_Analysis_Dashboard
+#Power_BI_Dashboard #Project #pbix
+
